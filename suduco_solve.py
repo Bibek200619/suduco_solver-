@@ -79,7 +79,7 @@ def solve_sudoku(matrix, size):
 
 def solution(matrix, size):
     if solve_sudoku(matrix, size):
-        print("\nSolved Sudoku:")
+        print("\nSolved Sudoku:x")
         print(matrix)
     else:
         print("\nNo solution exists for this puzzle.")
